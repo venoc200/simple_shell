@@ -51,7 +51,7 @@ char **list_to_strings(list_t *head)
 		str = _strcpy(str, node->str);
 		strs[a] = str;
 	}
-	strs[i] = NULL;
+	strs[a] = NULL;
 	return (strs);
 }
 
